@@ -10,43 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RSASignTest/HBRSAHandler.m"
-            timestampString = "535906070.529789"
+            timestampString = "535964800.566007"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "592"
-            endingLineNumber = "592"
-            landmarkName = "-encryptWithPrivateKey_supportCNTestChar:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RSASignTest/HBRSAHandler.m"
-            timestampString = "535906070.529921"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "601"
-            endingLineNumber = "601"
-            landmarkName = "-encryptWithPrivateKey_supportCNTestChar:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RSASignTest/HBRSAHandler.m"
-            timestampString = "535906070.530022"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "535"
-            endingLineNumber = "535"
+            startingLineNumber = "537"
+            endingLineNumber = "537"
             landmarkName = "-encryptWithPrivateKey_supportLongCN:"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RSASignTest/HBRSAHandler.m"
-            timestampString = "535906070.530096"
+            timestampString = "535964800.566266"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "521"
@@ -74,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RSASignTest/HBRSAHandler.m"
-            timestampString = "535906070.530172"
+            timestampString = "535964800.566322"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "503"
-            endingLineNumber = "503"
-            landmarkName = "-encryptWithPrivateKey_supportLongCN:"
+            startingLineNumber = "597"
+            endingLineNumber = "597"
+            landmarkName = "-encryptWithPrivateKey_supportCNTestChar:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

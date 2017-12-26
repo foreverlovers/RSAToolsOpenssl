@@ -523,9 +523,11 @@ typedef enum {
         }
         else
         {
-            char fullPartChar[117];
-            bzero(fullPartChar, 117);
-            strncpy(fullPartChar, unsignLongChar + i, 117);
+            // 注意字符串的拷贝函数memcpy和strncpy 20171226
+            unsigned long fullPartLenght = 117;
+            char fullPartChar[fullPartLenght + 1];
+            memcpy(fullPartChar, unsignLongChar + i, fullPartLenght);
+            fullPartChar[fullPartLenght] = '\0';
             
             //test
 //            NSLog(@"char lenght %lu", strlen(fullPartChar));

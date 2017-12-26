@@ -108,47 +108,47 @@
 }
 - (IBAction)clickBtn2:(id)sender {
     
-//    NSString *unsignLongStr = @"accName=aaa&accNo=6217851234567890123&accPhoneNo=13764111247&cardType=0&certificatenumber=320602198704162515&inTradeOrderNo=20171207&merchantNo=990290077770049&merchantURL=aaa&terminal=PC&terminalNo=77700624";
+    NSString *unsignLongStr = @"accName=aaa&accNo=6217851234567890123&accPhoneNo=13764111247&cardType=0&certificatenumber=320602198704162515&inTradeOrderNo=20171207&merchantNo=990290077770049&merchantURL=aaa&terminal=PC&terminalNo=77700624";
 //    NSString *unsignLongStr = @"accName=金晶";
-//    NSString* encryptWithPrivateKey = [_handler encryptWithPrivateKey_supportLongCN:unsignLongStr];
-//    NSLog(@"\n\nencryptWithPrivateKey:\n%@\n\n", encryptWithPrivateKey);
+    NSString* encryptWithPrivateKey = [_handler encryptWithPrivateKey_supportLongCN:unsignLongStr];
+    NSLog(@"\n\nencryptWithPrivateKey:\n%@\n\n", encryptWithPrivateKey);
     
     // 测试多组数据，与java对比观察是否有出错
-//    NSString *unsignLongCNStr = @"将要加密的字符串为：分析机构 Strategy Analytics 不久前发布了一份消费者满意度报告，他们对 iPhone X 的 568 名早期购买者进行调查，想要弄清人们对 iPhone X 最满意的地方在哪里。有趣的是，分析师们最后得出结论，称原深感摄像头和面容 ID 是 iPhone X 用户满意度的“主要推动力”。这个结论之所以有趣，是因为在 iPhone X 发售前和发售初期，业界对原深感摄像头表示并不看好，因为它的到来让 Home 键彻底消失，还在屏幕顶部留下了一个足够惹眼的“刘海”。另外对面容 ID 的安全性和可靠性，人们也是一如";
-//    NSString* encryptWithPrivateKey1 = [_handler encryptWithPrivateKey_supportLongCN:unsignLongCNStr];
-//    NSLog(@"encryptWithPrivateKey1:\n%@", encryptWithPrivateKey1);
-//    NSLog(@"\n");
+    NSString *unsignLongCNStr = @"将要加密的字符串为：分析机构 Strategy Analytics 不久前发布了一份消费者满意度报告，他们对 iPhone X 的 568 名早期购买者进行调查，想要弄清人们对 iPhone X 最满意的地方在哪里。有趣的是，分析师们最后得出结论，称原深感摄像头和面容 ID 是 iPhone X 用户满意度的“主要推动力”。这个结论之所以有趣，是因为在 iPhone X 发售前和发售初期，业界对原深感摄像头表示并不看好，因为它的到来让 Home 键彻底消失，还在屏幕顶部留下了一个足够惹眼的“刘海”。另外对面容 ID 的安全性和可靠性，人们也是一如";
+    NSString* encryptWithPrivateKey1 = [_handler encryptWithPrivateKey_supportLongCN:unsignLongCNStr];
+    NSLog(@"encryptWithPrivateKey1:\n%@", encryptWithPrivateKey1);
+    NSLog(@"\n");
 //    return ;
     
-//    NSString *unsign117CNStr = @"accName=周周&accNo=6217851234567890123&accPhoneNo=13764111247&cardType=0&certificatenumber=320602198704162515&inTradeO";
-//    NSString* encryptWithPrivateKey2 = [_handler encryptWithPrivateKey_supportLongCN:unsign117CNStr];
-//    NSLog(@"encryptWithPrivateKey2:\n%@", encryptWithPrivateKey2);
-//    NSLog(@"\n");
+    NSString *unsign117CNStr = @"accName=周周&accNo=6217851234567890123&accPhoneNo=13764111247&cardType=0&certificatenumber=320602198704162515&inTradeO";
+    NSString* encryptWithPrivateKey2 = [_handler encryptWithPrivateKey_supportLongCN:unsign117CNStr];
+    NSLog(@"encryptWithPrivateKey2:\n%@", encryptWithPrivateKey2);
+    NSLog(@"\n");
 //    return ;
     
-//    NSString *unsign234ENStr = @"iOS 11.2 SDK provides support for developing iOS apps. It’s packaged with a complete set of Xcode tools, compilers, and frameworks for creating apps for iOS, watchOS, tvOS, and macOS. These tools include the Xcode IDE and the Instrumen";
-//    NSString* encryptWithPrivateKey3 = [_handler encryptWithPrivateKey_supportLongCN:unsign234ENStr];
-//    NSLog(@"encryptWithPrivateKey3:\n%@", encryptWithPrivateKey3);
-//    NSLog(@"\n");
+    NSString *unsign234ENStr = @"iOS 11.2 SDK provides support for developing iOS apps. It’s packaged with a complete set of Xcode tools, compilers, and frameworks for creating apps for iOS, watchOS, tvOS, and macOS. These tools include the Xcode IDE and the Instrumen";
+    NSString* encryptWithPrivateKey3 = [_handler encryptWithPrivateKey_supportLongCN:unsign234ENStr];
+    NSLog(@"encryptWithPrivateKey3:\n%@", encryptWithPrivateKey3);
+    NSLog(@"\n");
 //    return ;
     
-//    NSString *unsign3007ENStr = @"iOS 11.2 SDK provides support for developing iOS apps. It’s packaged with a complete set of Xcode tools, compilers, and frameworks for creating apps for iOS, watchOS, tvOS, and macOS. These tools include the Xcode IDE and the Instruments analysis tool, among many others.With this software you can develop apps for iPhone, iPad, or iPod touch running iOS 11.2. You can also test your apps using the included Simulator, which supports iOS 11.2. iOS 11.2 SDK requires a Mac computer running macOS Sierra 10.12.6 or later.You obtain Xcode 9.2 from the Mac App Store. It is a free download that installs directly into the Applications folder.The Apple Developer Program provides everything you need to build and distribute your apps on the App Store for iPhone, iPad, Mac, and Apple Watch. Membership includes access to beta OS releases, advanced app capabilities, and tools to develop, test, and distribute apps and Safari extensions. For more information, visit Apple Developer Program.Apple provides the following resources to support your development:Developer documentation is available both on the Apple Developer website and from Xcode by choosing Help > Developer Documentation.Apple Developer Forums. Participate in discussions about developing for Apple platforms and using developer tools.Bug Reporter. Report issues, enhancement requests, and feedback to Apple. Provide detailed information, including the system and developer tools version information, and any relevant crash logs or console messages.Apple Developer website. Get the latest development information.iOS homepage. Get high-level information about the latest release of iOS. Download current and beta iOS releases.For help with using Xcode, Simulator, or Instruments, choose Help > app name Help.Bug ReportingFor issues not mentioned in Notes and Known Issues, please file bugs through the Apple Developer website https://developer.apple.com/bug-reporting/.When filing a bug, please include the full version number in the bug title and in the description. To find the version number, open Settings > General > About. The version number is shown next to Version and looks like 11.2 (15Cxxx).";
-//    NSString* encryptWithPrivateKey4 = [_handler encryptWithPrivateKey_supportLongCN:unsign3007ENStr];
-//    NSLog(@"encryptWithPrivateKey4:\n%@", encryptWithPrivateKey4);
-//    NSLog(@"\n");
+    NSString *unsign3007ENStr = @"iOS 11.2 SDK provides support for developing iOS apps. It’s packaged with a complete set of Xcode tools, compilers, and frameworks for creating apps for iOS, watchOS, tvOS, and macOS. These tools include the Xcode IDE and the Instruments analysis tool, among many others.With this software you can develop apps for iPhone, iPad, or iPod touch running iOS 11.2. You can also test your apps using the included Simulator, which supports iOS 11.2. iOS 11.2 SDK requires a Mac computer running macOS Sierra 10.12.6 or later.You obtain Xcode 9.2 from the Mac App Store. It is a free download that installs directly into the Applications folder.The Apple Developer Program provides everything you need to build and distribute your apps on the App Store for iPhone, iPad, Mac, and Apple Watch. Membership includes access to beta OS releases, advanced app capabilities, and tools to develop, test, and distribute apps and Safari extensions. For more information, visit Apple Developer Program.Apple provides the following resources to support your development:Developer documentation is available both on the Apple Developer website and from Xcode by choosing Help > Developer Documentation.Apple Developer Forums. Participate in discussions about developing for Apple platforms and using developer tools.Bug Reporter. Report issues, enhancement requests, and feedback to Apple. Provide detailed information, including the system and developer tools version information, and any relevant crash logs or console messages.Apple Developer website. Get the latest development information.iOS homepage. Get high-level information about the latest release of iOS. Download current and beta iOS releases.For help with using Xcode, Simulator, or Instruments, choose Help > app name Help.Bug ReportingFor issues not mentioned in Notes and Known Issues, please file bugs through the Apple Developer website https://developer.apple.com/bug-reporting/.When filing a bug, please include the full version number in the bug title and in the description. To find the version number, open Settings > General > About. The version number is shown next to Version and looks like 11.2 (15Cxxx).";
+    NSString* encryptWithPrivateKey4 = [_handler encryptWithPrivateKey_supportLongCN:unsign3007ENStr];
+    NSLog(@"encryptWithPrivateKey4:\n%@", encryptWithPrivateKey4);
+    NSLog(@"\n");
 //    return ;
     
-//    NSString *unsignShortENStr = @"iOS 11.2 SDK";
-//    NSString* encryptWithPrivateKey5 = [_handler encryptWithPrivateKey_supportLongCN:unsignShortENStr];
-//    NSLog(@"encryptWithPrivateKey5:\n%@", encryptWithPrivateKey5);
-//    NSLog(@"\n");
+    NSString *unsignShortENStr = @"iOS 11.2 SDK";
+    NSString* encryptWithPrivateKey5 = [_handler encryptWithPrivateKey_supportLongCN:unsignShortENStr];
+    NSLog(@"encryptWithPrivateKey5:\n%@", encryptWithPrivateKey5);
+    NSLog(@"\n");
 //    return ;
     
     NSString *unsignShortCNStr = @"周周周正在测试,a1";
     NSString* encryptWithPrivateKey6 = [_handler encryptWithPrivateKey_supportLongCN:unsignShortCNStr];
     NSLog(@"encryptWithPrivateKey6:\n%@", encryptWithPrivateKey6);
     NSLog(@"\n");
-    return ;
+//    return ;
     
 //    for(int i = (int)unsignLongStr.length; i != 0; i--)
 //    {
